@@ -139,6 +139,7 @@ for (const miResultado of fechaMiResultado) {
                             <button id='guardarPronostico'>Guardar Pronostico</button>
                         </ul>`;
     document.body.appendChild(div);
+    div.classList.add("item")
 }
 
 
